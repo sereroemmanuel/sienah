@@ -125,7 +125,7 @@
             // Reset progress bar animation
             progressBar.style.animation = 'none';
             progressBar.offsetHeight; // Trigger reflow
-            progressBar.style.animation = 'progress 3s linear infinite';
+            progressBar.style.animation = 'progress 10s linear infinite';
         }
 
         function nextSlide() {
@@ -149,7 +149,7 @@
             });
             
             // Start slideshow
-            slideInterval = setInterval(nextSlide, 3000);
+            slideInterval = setInterval(nextSlide, 8000);
             showSlide(0);
         }
 
